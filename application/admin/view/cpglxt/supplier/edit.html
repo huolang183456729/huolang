@@ -1,0 +1,207 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Code')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-code" data-rule="required" class="form-control" name="row[code]" type="text" value="{$row.code|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Chinese name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-chinese_name" data-rule="required" class="form-control" name="row[chinese_name]" type="text" value="{$row.chinese_name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Grade')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-grade" class="form-control"  name="row[grade]">
+                <option value='0' {if $row.grade == 0}selected{/if}>选择</option>
+                <option value='A' {if $row.grade == 'A'}selected{/if}>A</option>
+                <option value='B' {if $row.grade == 'B'}selected{/if}>B</option>
+                <option value='C' {if $row.grade == 'C'}selected{/if}>C</option>
+                <option value='D' {if $row.grade == 'D'}selected{/if}>D</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('English name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-english_name"  class="form-control" name="row[english_name]" type="text" value="{$row.english_name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Cooperation type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-cooperation_type" class="form-control"  name="row[cooperation_type]">
+                <option value='1' {if $row.cooperation_type == 1}selected{/if}>正常</option>
+                <option value='2' {if $row.cooperation_type == 2}selected{/if}>临时</option>
+                <option value='3' {if $row.cooperation_type == 3}selected{/if}>备用</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Product category')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-product_category_id"  data-source="product_category/get_category" data-field="chinese_name" data-primaryKey="id" class="form-control selectpage"   name="row[product_category_id]"  type="text"  value="{$row.product_category_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-type" class="form-control"  name="row[type]">
+                <option value='0' {if $row.type == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.type == 1}selected{/if}>零售</option>
+                <option value='2' {if $row.type == 2}selected{/if}>批发</option>
+                <option value='3' {if $row.type == 3}selected{/if}>生产商</option>
+                <option value='4' {if $row.type == 4}selected{/if}>通用虚拟</option>
+                <option value='5' {if $row.type == 5}selected{/if}>线上</option>
+                <option value='6' {if $row.type == 6}selected{/if}>市场</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Buyer')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-buyer_id"  data-source="auth/admin/get_admin" data-field="name" data-primaryKey="id" class="form-control selectpage"   name="row[buyer_id]"  type="text"  value="{$row.buyer_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Merchandiser')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-merchandiser_id"  data-source="auth/admin/get_admin" data-field="name" data-primaryKey="id" class="form-control selectpage"   name="row[merchandiser_id]"  type="text"  value="{$row.merchandiser_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier developer')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-supplier_developer_id"  data-source="auth/admin/get_admin" data-field="name" data-primaryKey="id" class="form-control selectpage"   name="row[supplier_developer_id]"  type="text"  value="{$row.supplier_developer_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Organization')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            {:build_select('row[organization]', $channeldata, $row['organization'], ['class'=>'form-control', 'required'=>''])}
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier tax number')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-supplier_tax_number"  class="form-control" name="row[supplier_tax_number]" type="text" value="{$row.supplier_tax_number|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Settlement methods')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-settlement_methods" class="form-control"  name="row[settlement_methods]">
+                <option value='0' {if $row.settlement_methods == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.settlement_methods == 1}selected{/if}>货到付款</option>
+                <option value='2' {if $row.settlement_methods == 2}selected{/if}>款到发货</option>
+                <option value='3' {if $row.settlement_methods == 3}selected{/if}>账期</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Payment cycle type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-payment_cycle_type" class="form-control"  name="row[payment_cycle_type]">
+                <option value='0' {if $row.payment_cycle_type == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.payment_cycle_type == 1}selected{/if}>月结</option>
+                <option value='2' {if $row.payment_cycle_type == 2}selected{/if}>隔月结</option>
+                <option value='3' {if $row.payment_cycle_type == 3}selected{/if}>日结</option>
+                <option value='4' {if $row.payment_cycle_type == 4}selected{/if}>周结</option>
+                <option value='5' {if $row.payment_cycle_type == 5}selected{/if}>半月结</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Payment method')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-payment_method" class="form-control"  name="row[payment_method]">
+                <option value='0' {if $row.payment_method == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.payment_method == 1}selected{/if}>现金</option>
+                <option value='2' {if $row.payment_method == 2}selected{/if}>在线</option>
+                <option value='3' {if $row.payment_method == 3}selected{/if}>银行卡</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Undertaker')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-undertaker" class="form-control"  name="row[undertaker]">
+                <option value='0' {if $row.undertaker == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.undertaker == 1}selected{/if}>供应商</option>
+                <option value='2' {if $row.undertaker == 2}selected{/if}>采购方</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Shipping type')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-shipping_type" class="form-control"  name="row[shipping_type]">
+                <option value='0' {if $row.shipping_type == 0}selected{/if}>选择</option>
+                <option value='1' {if $row.shipping_type == 1}selected{/if}>自提</option>
+                <option value='2' {if $row.shipping_type == 2}selected{/if}>快递</option>
+                <option value='3' {if $row.shipping_type == 3}selected{/if}>物流</option>
+                <option value='4' {if $row.shipping_type == 4}selected{/if}>送货</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Carrier')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-carrier"  class="form-control" name="row[carrier]" type="text" value="{$row.carrier|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier country')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-supplier_country"  data-source="warehouse_management/get_country" data-field="cn_name" data-primaryKey="id" class="form-control selectpage"   name="row[supplier_country]"  type="text"  value="{$row.supplier_country|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier state')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-supplier_state"  class="form-control" name="row[supplier_state]" type="text" value="{$row.supplier_state|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier city')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class='control-relative'><input id="c-supplier_city"  class="form-control"  name="row[supplier_city]" type="text" value="{$row.supplier_city|htmlentities}"></div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Supplier address')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-supplier_address" class="form-control" name="row[supplier_address]" type="text" value="{$row.supplier_address|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-status" class="form-control"  name="row[status]">
+                <option value='1' {if $row.status == 1}selected{/if}>正式供应商</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Add time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-add_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[add_time]" type="text" value="{$row.add_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{:date('Y-m-d H:i:s')}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

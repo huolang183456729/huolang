@@ -1,0 +1,697 @@
+---------------------------------------------------------------
+[ 2020-12-11T15:10:09+08:00 ] 127.0.0.1 GET www.moto.com/
+[运行时间：0.303453s] [吞吐率：3.30req/s] [内存消耗：2,957.83kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004255s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010661s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.004377s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_ses.1.a9ea=*; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.016077s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000397s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:09+08:00 ] 127.0.0.1 GET www.moto.com/admin/index/login
+[运行时间：0.092045s] [吞吐率：10.86req/s] [内存消耗：3,419.09kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001477s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000324s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_ses.1.a9ea=*; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.; PHPSESSID=g8c74t54t136i8j5hitvcdqmsk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'purpose' => 'prefetch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001110s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000315s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:09+08:00 ] 127.0.0.1 GET www.moto.com/index.php?s=/captcha
+[运行时间：0.058990s] [吞吐率：16.95req/s] [内存消耗：2,151.89kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001634s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000370s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_ses.1.a9ea=*; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.; PHPSESSID=g8c74t54t136i8j5hitvcdqmsk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.moto.com/admin/index/login',
+  'purpose' => 'prefetch',
+  'accept' => 'application/signed-exchange;v=b3;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpstudy_pro\WWW\zserp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:10+08:00 ] 127.0.0.1 GET www.mmmerp.com/
+[运行时间：0.078015s] [吞吐率：12.82req/s] [内存消耗：2,949.61kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004801s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000377s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002565s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000738s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:10+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/index/login
+[运行时间：0.051937s] [吞吐率：19.25req/s] [内存消耗：3,410.78kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001271s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000302s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001610s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\view\index\login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'background',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000204s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:10+08:00 ] 127.0.0.1 GET www.mmmerp.com/index.php?s=/captcha
+[运行时间：0.046442s] [吞吐率：21.53req/s] [内存消耗：2,144.33kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001310s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000272s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/login',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpstudy_pro\WWW\zserp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:11+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/ajax/lang?callback=define&controllername=index&v=1607670610
+[运行时间：0.075205s] [吞吐率：13.30req/s] [内存消耗：3,423.52kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002084s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000337s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/login',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1607670610',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001266s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000228s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:17+08:00 ] 127.0.0.1 GET www.mmmerp.com/index.php?s=/captcha&r=0.15978976372536646
+[运行时间：0.065053s] [吞吐率：15.37req/s] [内存消耗：2,144.63kb] [文件加载：108]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001568s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000342s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/login',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'r' => '0.15978976372536646',
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ D:\phpstudy_pro\WWW\zserp\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:24+08:00 ] 127.0.0.1 POST www.mmmerp.com/admin/index/login
+[运行时间：0.387431s] [吞吐率：2.58req/s] [内存消耗：4,255.48kb] [文件加载：139]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001377s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000306s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/login',
+  'origin' => 'http://www.mmmerp.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '86',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '52e1b5178a5de7db08c2f82c9aac5518',
+  'username' => 'admin',
+  'password' => '123456',
+  'captcha' => '7fp4',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000979s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.048238s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:25+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/index/index
+[运行时间：0.309100s] [吞吐率：3.24req/s] [内存消耗：4,696.70kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003267s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000410s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000962s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000357s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:25+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/ajax/lang?callback=define&controllername=index&v=1607670624
+[运行时间：0.063279s] [吞吐率：15.80req/s] [内存消耗：4,452.70kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001289s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000282s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1607670624',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000923s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000234s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:28+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/addon?addtabs=1
+[运行时间：0.186722s] [吞吐率：5.36req/s] [内存消耗：4,723.48kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001373s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000258s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/addon?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001013s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->index[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Addon.php ]
+[ info ] [ VIEW ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\view\addon\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000433s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T15:10:28+08:00 ] 127.0.0.1 GET www.mmmerp.com/admin/ajax/lang?callback=define&controllername=addon&v=1607670628
+[运行时间：0.056285s] [吞吐率：17.77req/s] [内存消耗：4,455.36kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000053s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002290s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000350s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=jqn02q4c4fa8dhtsnojdmvb3dj',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.mmmerp.com/admin/addon?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.mmmerp.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1607670628',
+)
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001044s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\phpstudy_pro\WWW\zserp\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000224s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T17:38:10+08:00 ] 127.0.0.1 GET www.moto.com/css/style.css.map
+[运行时间：0.103642s] [吞吐率：9.65req/s] [内存消耗：2,118.10kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001736s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000371s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'style.css.map',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.; PHPSESSID=g8c74t54t136i8j5hitvcdqmsk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T17:38:13+08:00 ] 127.0.0.1 GET www.moto.com/images/phone-icon.png
+[运行时间：0.051504s] [吞吐率：19.42req/s] [内存消耗：2,118.28kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003722s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000575s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'phone-icon.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.; PHPSESSID=g8c74t54t136i8j5hitvcdqmsk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.moto.com/css/style1.css?v=2020040401',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-12-11T17:38:40+08:00 ] 127.0.0.1 GET www.moto.com/images/t_list_arrow.gif
+[运行时间：0.034939s] [吞吐率：28.62req/s] [内存消耗：2,118.35kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001318s ]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\zserp\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000319s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 't_list_arrow.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.2.1745856399.1588738860; tracker_device=0ffbe801-b2b7-4eab-b742-c9191ab6e41a; __adroll_fpc=f517afae54a701e45001de22ea5f82b4-1588813429487; cnx_views=1; _isuid=8C75DA4C-83EF-425B-8348-8E4ACAE0B829; omnisendAnonymousID=bBaWZMGuRIPKTW-20201016013813; _privy_9F745DA1B52DF54A434F7561=%7B%22uuid%22%3A%2298714cd6-4d9a-410c-8e28-2fbddfc862c1%22%2C%22variations%22%3A%7B%7D%2C%22country_code%22%3A%22CN%22%2C%22region_code%22%3A%22CN_04%22%2C%22postal_code%22%3A%22%22%7D; fpestid=tBANfS3qJtoziZsHwVS1KZmHFNF1uGWC07xMfyM8lKQAxpFJBIGTP48JkdUNliIt5p7HZA; __atuvc=2%7C42; _sp_id.a9ea=55024a61086349e3.1602812294.1.1602812433.1602812294; _fbp=fb.1.1605165019401.1039542539; cnx_sid=373594148021559436; cnx_start=1605748234376; cnx_pg=1605748234376; cnx_orid=1605748236298715863_pos; _gid=GA1.2.1970284798.1607391563; __ar_v4=ID7HZR7475GRHJPZUBPU4R%3A20201125%3A18%7CJUI7HYJI5VGUHEWETEUVOX%3A20201125%3A18%7C3QAXZW4H4ZB3BEHLCNLFUC%3A20201125%3A18; session=oounevkgnifqan2rn3h8uhtc12; _pk_ref.1.a9ea=%5B%22%22%2C%22%22%2C1607669326%2C%22http%3A%2F%2Fwww.adminmoto.com%2F%22%5D; _pk_id.1.a9ea=1b4f689a9395b48e.1597136061.116.1607669333.1607666456.; PHPSESSID=g8c74t54t136i8j5hitvcdqmsk',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.moto.com/css/style1.css?v=2020040401',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1',
+  'connection' => 'close',
+  'host' => 'www.moto.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
